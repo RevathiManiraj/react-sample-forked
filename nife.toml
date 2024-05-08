@@ -1,11 +1,15 @@
-app = "phenomenal-app-8286"
-github = "https://github.com/RevathiManiraj/react-sample-forked/"
-id = "fba687623ad8f1be1a2644c3325e50d9cebaee712837c11a06a46b66d15385c4e875b785adb0875b15f78c4d0c835f3e"
-kill_signal = "SIGINT"
-kill_timeout = 5
+# nile.toml file generated for nifectl-test-4321 on 2024-05-08T12:11:06+05:30
+
+app = "nifectl-test-4321"
+docker_file_path = ""
+github = "https://github.com/RevathiManiraj/react-sample-forked/archive/refs/heads/main.zip"
+id = "e1b28f5b2844c099efac488c7e7f8e8860b0c33afc4a1bfba8573a16fb8c9d32260846061f64f6b8f7d392226a563f54"
 
 [build]
-  image = ""
+  builtin = "GitHub"
+
+kill_signal = "SIGINT"
+kill_timeout = 5
 
 [env]
 
@@ -14,11 +18,11 @@ kill_timeout = 5
   auto_rollback = true
 
 [[services]]
-  external_port = "80"
+  external_port = 80
   http_checks = []
-  internal_port = "4000"
+  internal_port = 3000
   protocol = "tcp"
-  routing_policy = "Latency"
+  routing_policy = "Geolocation"
   script_checks = []
 
   [services.concurrency]

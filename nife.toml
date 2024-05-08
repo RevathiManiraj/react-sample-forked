@@ -1,9 +1,9 @@
-# nile.toml file generated for nifectl-test-4321 on 2024-05-08T12:11:06+05:30
+# nile.toml file generated for sweet-brown2 on 2024-05-08T16:35:29+05:30
 
-app = "nifectl-test-4321"
+app = "sweet-brown2"
 docker_file_path = ""
 github = "https://github.com/RevathiManiraj/react-sample-forked/archive/refs/heads/main.zip"
-id = "e1b28f5b2844c099efac488c7e7f8e8860b0c33afc4a1bfba8573a16fb8c9d32260846061f64f6b8f7d392226a563f54"
+id = "049d051649e0f5814651814d37373463eb8c60bc5ce80472dd460cdc10fa2eaddffeb17ddc367dd50035a606deb1d000"
 
 [build]
   builtin = "GitHub"
@@ -22,7 +22,7 @@ kill_timeout = 5
   http_checks = []
   internal_port = 3000
   protocol = "tcp"
-  routing_policy = "Geolocation"
+  routing_policy = "Latency"
   script_checks = []
 
   [services.concurrency]
